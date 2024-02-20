@@ -62,5 +62,3 @@ submit_forecast <- function(forecast,team_info,submit=FALSE){
     neon4cast::submit(forecast_file = forecast_file, ask = FALSE) #metadata = metadata_file,
   }
   
-}
-```
